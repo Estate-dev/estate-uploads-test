@@ -8,7 +8,7 @@
             <!-- Default panel contents -->
             <div class="panel-heading"><h2 class="panel-title">Bootstrap</h2></div>
             <div class="panel-body">
-                <p>PLusieurs test d'upload à valider puis adapter au format demandés.</p>
+                <p>Plusieurs test d'upload à valider puis adapter au format demandés.</p>
 
             </div>
 
@@ -79,12 +79,7 @@ Meteor.startup(function() {
                             </p>
                         {{/with}}
                     </div>
-                    <div class="panel">
-                      <h3>Liste des fichiers uploadés avec test d'effacement ( ?)</h3>
-                      <p>
-                        {{> uploadedInfo uploads }}
-                      </p>
-                    </div>
+
 
                 </li>
             </ul>
@@ -92,25 +87,26 @@ Meteor.startup(function() {
 
         <div class="panel panel-default">
             <div class="panel-heading">
-                <h3>Dropzone</h3>
+                <h3>Tets de zone de dépose (  css a debugger )</h3>
             </div>
             <div class="panel-body">
                 <ul class="list-group">
                     <li class="list-group-item">
-                        <label>Simple</label>
-                        <pre class="well">&#123;&#123;&gt; dropzone &#125;&#125;</pre>
+                        <label>Tetes simple</label>
+
                         {{> dropzone }}
                     </li>
-                    <li class="list-group-item">
-                        <label>With form data</label>
-                        <pre class="well">&#123;&#123;&gt; dropzone formData=myFormData &#125;&#125;</pre>
-                        {{> dropzone formData=myFormData }}
-                    </li>
+
                 </ul>
             </div>
         </div>
 
-
+        <div class="panel">
+          <h3>Liste des fichiers uploadés avec test d'effacement ( ?)</h3>
+          <p>
+            {{> uploadedInfo uploads }}
+          </p>
+        </div>
 
     </div>
 </template>
