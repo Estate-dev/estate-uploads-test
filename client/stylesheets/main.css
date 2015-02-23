@@ -1,0 +1,113 @@
+/* INIT SETUP */
+/* orange estate  : #e58d34;*/
+.estate-color-orange {
+  color: #F0830C;
+}
+.estate-color-grey{
+  color:#6f7b8a;
+}
+.estate-color-dark-grey{
+  color:#222222;
+}
+.dash-block{
+  background-color: #252525;
+}
+.dash-block img{
+  margin-left: auto;
+  margin-right: auto;
+}
+.btn-orange-estate {
+  color: #ffffff;
+  background-color: #F0830C;
+  border-color: 824509;
+}
+hr{
+  margin-bottom: 0px!important;
+}
+a{
+  color:#6f7b8a;
+}
+a:hover, a:active{
+  color: #ebebeb;
+  text-decoration: none;
+}
+html {
+  font-size: 100%;
+  overflow-y: scroll;
+}
+body {
+  background-color: #ffffff;
+  color: #f8f8f8;
+  font-family: 'Open Sans', sans-serif!important;
+  font-size: 13px;
+  padding: 0px !important;
+  margin: 0px !important;
+  line-height: 1.5;
+  font-style: normal;
+  font-weight: normal;
+  height: 100%;
+}
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  height: 100%;
+}
+body {
+  background-color:#151515;
+}
+footer {
+  height: 30px;
+  padding-top: 5px;
+  background-color: #333333;
+}
+p.footer-text {
+  margin-bottom: 0!important;
+}
+/* Custom page CSS
+-------------------------------------------------- */
+/* notFound */
+div#notfound-container{
+  margin-top: 70px;
+}
+.error-txt{
+  margin-top: 60px;
+  font-size: 60px;
+  font-weight: 300;
+}
+/* Login */
+#login-form-container p.estate-color-orange.text-center{
+  margin-bottom: 50px;
+}
+div#login-header-container{
+  padding-top: 30px;
+}
+div#login-form-container h2{
+  margin-bottom: 20px;
+  font-weight: 300;
+}
+div#login-form-container div.form-control {
+  color: #000000 !important;
+  font-size: 25px;
+  border: none;
+  padding: 25px;
+  padding-left: 10px;
+  border-bottom: 1px solid #CCC;
+  margin-bottom: 10px;
+  outline: none;
+  -webkit-box-shadow: none !important;
+  -moz-box-shadow: none !important;
+  box-shadow: none !important;
+}
+p#home-link{
+  margin-top: 30px;
+}
+/* Agency List */
+.callout-agency{
+padding: 5px 20px;
+margin: 10px 0;
+border: 1px solid #eee;
+border-left-width: 5px;
+border-radius: 3px;
+
+border-left-color: #e58d34;
+}
